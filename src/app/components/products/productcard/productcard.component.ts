@@ -16,7 +16,7 @@ export class ProductcardComponent implements OnInit {
   constructor(private httpClient:HttpClient) { }
    products :any =[];
   ngOnInit(): void {
-    this.httpClient.get("./assets/productsDetails/coffeemug.json").subscribe(data =>{
+    this.httpClient.get("assets/productsDetails/coffeemug.json").subscribe(data =>{
       this.products=data;
     })
   }
