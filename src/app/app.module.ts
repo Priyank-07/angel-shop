@@ -16,6 +16,9 @@ import { HttpClientModule } from '@angular/common/http';
 import {MatGridListModule} from '@angular/material/grid-list';
 import { ProductcardComponent } from './components/products/productcard/productcard.component';
 import { RouterModule } from '@angular/router';
+import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatIconModule} from '@angular/material/icon'
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -35,7 +38,7 @@ import { RouterModule } from '@angular/router';
     MatCardModule,
     HttpClientModule,
     MatGridListModule,
-    RouterModule
+    RouterModule,FlexLayoutModule,MatIconModule
 
     
 

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Router, Routes } from '@angular/router';
 import { DefaultpageComponent } from '../defaultpage/defaultpage.component';
 import { ProductcardComponent } from '../products/productcard/productcard.component';
@@ -11,7 +11,10 @@ import { ProductcardComponent } from '../products/productcard/productcard.compon
 })
 export class ProductnavbarComponent implements OnInit {
 
+  @Input()
+  deviseXs: boolean =false;
   constructor(private router : Router) { }
+
 
   ngOnInit(): void {
   }
