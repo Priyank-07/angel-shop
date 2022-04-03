@@ -1,0 +1,19 @@
+<div class="row">
+<div  *ngFor=" let product of products" style="display:flex;flex-direction: column;flex-wrap: wrap;width: min-content;">
+
+    <mat-card style="max-width:300px;height: 300px;margin-top: 22px; ">
+        <mat-card-header>
+            <mat-card-title>
+                {{product.name}}
+            </mat-card-title>
+            <mat-card-subtitle>
+                {{product.price}}
+            </mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content > 
+            <img style="width: 200px;padding: 10px;margin: 15px 20px;" [src]="product.imageURL">
+        </mat-card-content>
+    </mat-card>
+</div>
+
+</div>

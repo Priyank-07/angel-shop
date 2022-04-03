@@ -11,6 +11,10 @@ import { ProductnavbarComponent } from './components/productnavbar/productnavbar
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatToolbarModule} from '@angular/material/toolbar'; 
 import {MatButtonModule} from '@angular/material/button';
+import {MatCardModule} from '@angular/material/card';
+import { HttpClientModule } from '@angular/common/http';
+import {MatGridListModule} from '@angular/material/grid-list';
+import { ProductcardComponent } from './components/products/productcard/productcard.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,7 +22,8 @@ import {MatButtonModule} from '@angular/material/button';
     ContactusComponent,
     NavbarComponent,
     DefaultpageComponent,
-    ProductnavbarComponent
+    ProductnavbarComponent,
+    ProductcardComponent
   ],
   imports: [
     BrowserModule,
@@ -26,6 +31,9 @@ import {MatButtonModule} from '@angular/material/button';
     BrowserAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
+    MatCardModule,
+    HttpClientModule,
+    MatGridListModule
 
     
 
