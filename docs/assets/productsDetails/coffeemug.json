@@ -1,0 +1,33 @@
+[
+    {
+        "id": 1,
+        "name": "Animal Handle Mug",
+        "price": "$1",
+        "imageURL": "./assets/productsDetails/coffeemugimages/animal.jpeg"
+    },
+    {
+        "id": 2,
+        "name": "Colour Coffee Mug",
+        "price": "$1",
+        "imageURL": "./assets/productsDetails/coffeemugimages/colour.jpeg"
+    },
+    {
+        "id": 3,
+        "name": "Heart Handle",
+        "price": "$1",
+        "imageURL": "./assets/productsDetails/coffeemugimages/hearthandle.jpeg"
+    },
+ 
+    {
+        "id": 5,
+        "name": "Magic Coffee Mug",
+        "price": "$1",
+        "imageURL": "./assets/productsDetails/coffeemugimages/magiccoffe.jpeg"
+    },
+    {
+        "id": 6,
+        "name": "Radium Cofee Mug",
+        "price": "$1",
+        "imageURL": "./assets/productsDetails/coffeemugimages/radium.jpeg"
+    }
+]
