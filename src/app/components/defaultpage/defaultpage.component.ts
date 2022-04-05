@@ -21,10 +21,10 @@ export class DefaultpageComponent implements OnInit {
 
 
  
-  move(){
-    console.log("clicked");
-    this.showHomePage =false;
-    this.router.navigate(["/mugs"]);
-  }
+  // move(){
+  //   console.log("clicked");
+  //   this.showHomePage =false;
+  //   this.router.navigate(["/mugs"]);
+  // }
  
 }

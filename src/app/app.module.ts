@@ -17,7 +17,8 @@ import {MatGridListModule} from '@angular/material/grid-list';
 import { ProductcardComponent } from './components/products/productcard/productcard.component';
 import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
-import {MatIconModule} from '@angular/material/icon'
+import {MatIconModule} from '@angular/material/icon';
+import { ViewareaComponent } from './components/viewarea/viewarea.component'
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import {MatIconModule} from '@angular/material/icon'
     NavbarComponent,
     DefaultpageComponent,
     ProductnavbarComponent,
-    ProductcardComponent
+    ProductcardComponent,
+    ViewareaComponent
   ],
   imports: [
     BrowserModule,

@@ -23,7 +23,7 @@ export class NavbarComponent implements OnInit {
     }
   }
   moveToHome(val:boolean){
-    console.log(val)
+    console.log("hi")
     if(val){
 
       this.router.navigate(["/home"]);
