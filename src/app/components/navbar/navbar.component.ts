@@ -22,4 +22,11 @@ export class NavbarComponent implements OnInit {
       this.router.navigate(["/contactus"]);
     }
   }
+  moveToHome(val:boolean){
+    console.log(val)
+    if(val){
+
+      this.router.navigate(["/home"]);
+    }
+  }
 }

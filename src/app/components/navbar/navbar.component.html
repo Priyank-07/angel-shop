@@ -1,31 +1,22 @@
-<!-- <div *ngIf="deviseXs" class="header">
-    <a class="logo">Angel Print Shop</a>
-    <div class="header-right">
-        <nav>
-            <a routerLink="./home" class="active">Home</a>
-            <a routerLink="./contactus">Contact Us</a>
-        </nav>
-    </div>
-    
-</div> -->
+
 <div *ngIf="deviseXs"> 
 
     <mat-toolbar>
         <mat-toolbar-row fxLayoutAlign="space-between center"> 
         <div fxLayout="row">
-            <button mat-button class="logo">Angel Print Shop</button>
+            <button mat-button class="logo">Angel Printing</button>
         </div>
         <div fxLayout="row">
-            <mat-icon aria-hidden="false" aria-label="Example home icon">
+            <mat-icon aria-hidden="false" aria-label="Example home icon" (click)="moveToHome(deviseXs)">
                 <a routerLink="./home">
                     home
                 </a>
             </mat-icon>
             <mat-icon aria-hidden="false" aria-label="Example home icon" (click)="moveToContact(deviseXs)">
-                <a routerLink="./home">
+                <!-- <a routerLink="./home"> -->
 
                     contact_phone
-                </a>
+                <!-- </a> -->
                
             </mat-icon>
         </div>

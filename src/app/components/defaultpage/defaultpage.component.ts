@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-defaultpage',
@@ -9,9 +10,21 @@ export class DefaultpageComponent implements OnInit {
 
   @Input()
   deviseXs: boolean = false;
-  constructor() { }
-
+  
+  showHomePage : boolean = true;
+  someval : boolean = true;
   ngOnInit(): void {
+   
+    console.log(this.showHomePage);
+  }
+  constructor(private router : Router) { }
+
+
+ 
+  move(){
+    console.log("clicked");
+    this.showHomePage =false;
+    this.router.navigate(["/mugs"]);
   }
  
 }

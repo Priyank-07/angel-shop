@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-homepage',
@@ -9,9 +10,11 @@ export class HomepageComponent implements OnInit {
 
   @Input()
   deviseXs: boolean = false;
-  constructor() { }
+  
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
+    // this.router.navigate(["/home"]);
   }
 
 }
