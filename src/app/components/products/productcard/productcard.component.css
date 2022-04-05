@@ -1,0 +1,8 @@
+@keyframes move5{
+    from { background-color: rgb(116, 204, 178);}
+    to { background-color: rgb(238, 161, 45);}
+}
+
+#productCardAnimation5{
+    animation: move5 3s infinite alternate ;
+}

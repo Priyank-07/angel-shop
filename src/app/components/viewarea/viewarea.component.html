@@ -1,20 +1,27 @@
-<div style="margin-top: 50px;">
+<div style="margin-top: 50px;" >
 
-    <mat-card id="defaultBack"   style="height: 400px;padding: 15px;margin-top: 4px;">
+    <mat-card id="mainCard"   style="height: 400px;padding: 15px;margin-top: 2px;">
         <div class="container" style="padding: 15px;margin-top: 55px;">
 
             
             <div class="row" >
                 <div class="col" style="margin: 4px;"> 
                     
-                    <mat-card> 
-                        Mobile Covers
+                    <mat-card id="productCardAnimation1"> 
+
+                        <p style="font-family:Sans-serif;text-align:center;font-size:large">
+                        
+                            Mobile Covers
+                        </p>
                     </mat-card>
                 </div>
                 <div class="col" style="margin: 4px;"> 
 
-                <mat-card (click)="move()"> 
-                    Coffee Mugs 
+                <mat-card (click)="move()" id="productCardAnimation2"> 
+                    <p style="font-family:Sans-serif;text-align:center;font-size:large">
+                    
+                        Coffee Mugs 
+                    </p>
                 </mat-card>
             </div>
             
@@ -22,14 +29,20 @@
         <div class="row" >
             <div class="col" style="margin: 4px;"> 
                 
-                <mat-card> 
-                    Key Chains
+                <mat-card id="productCardAnimation2"> 
+                    <p style="font-family:Sans-serif;text-align:center;font-size:x-large">
+                    
+                        Key Chains
+                    </p>
                 </mat-card>
             </div>
             <div class="col" style="margin: 4px;" > 
 
-                <mat-card> 
-                    Photo Frames
+                <mat-card id="productCardAnimation1"> 
+                    <p style="font-family:Sans-serif;text-align:center;font-size:large">
+                    
+                        Photo Frames
+                    </p>
                 </mat-card>
             </div>
             
@@ -37,16 +50,21 @@
         <div class="row"  >
             <div class="col" style="margin: 4px;"> 
                 
-                <mat-card  > 
-                    Magic Mirrors
+                <mat-card id="productCardAnimation1" > 
+                    <p style="font-family:Sans-serif;text-align:center;font-size:large">
+
+                        Magic Mirrors
+                    </p>
                 </mat-card>
             </div>
             <div class="col" style="margin: 4px;"> 
                 
-                <mat-card > 
+                <mat-card id="productCardAnimation2"> 
                     
 
-                    T-Shirts
+                 <p style="font-family:Sans-serif;text-align:center;font-size:large">
+                    Printed T-Shirts
+                 </p>   
                     
                 </mat-card>
             </div>

@@ -33,3 +33,12 @@
     font-size:25px;
     font-weight: bold;
 }
+
+@keyframes move1{
+    from { background-color: rgb(25, 216, 184);}
+    to { background-color: rgb(238, 168, 146);}
+}
+
+#productCardAnimation5{
+    animation: move1 9s infinite alternate ;
+}

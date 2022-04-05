@@ -1,10 +1,15 @@
 
-<div *ngIf="deviseXs"> 
+<div *ngIf="deviseXs" style="margin:4px;" > 
 
-    <mat-toolbar>
+    <mat-toolbar id="productCardAnimation5">
         <mat-toolbar-row fxLayoutAlign="space-between center"> 
         <div fxLayout="row">
-            <button mat-button class="logo">Angel Printing</button>
+            <button mat-button class="logo">
+                <p style="font-family:Sans-serif;text-align:center;font-size:large">
+                    Angel Printing  
+                </p>
+            </button>
+
         </div>
         <div fxLayout="row">
             <mat-icon aria-hidden="false" aria-label="Example home icon" (click)="moveToHome(deviseXs)">

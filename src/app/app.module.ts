@@ -19,6 +19,7 @@ import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatIconModule} from '@angular/material/icon';
 import { ViewareaComponent } from './components/viewarea/viewarea.component'
+import {MatBadgeModule} from '@angular/material/badge'
 
 @NgModule({
   declarations: [
