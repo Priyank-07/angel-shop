@@ -8,8 +8,9 @@ import { ProductcardComponent } from './components/products/productcard/productc
 const routes: Routes = [
   {path : 'contactus',component :ContactusComponent},
   {path :'home',component:DefaultpageComponent},
-  {path : 'angel-shop',component:DefaultpageComponent},
-  {path :'mugs',component:ProductcardComponent}
+  // {path : ' ',redirectTo:'DefaultpageComponent',pathMatch:'full'},
+  {path :'mugs',component:ProductcardComponent},
+  {path :'angel-shop',component:DefaultpageComponent}
   
   
 ];
