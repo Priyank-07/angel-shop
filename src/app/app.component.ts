@@ -23,7 +23,6 @@ export class AppComponent implements OnInit,OnDestroy{
           this.router.navigate(["/home"]);
 
         }
-        console.log(result.mqAlias);
       }
     );
 

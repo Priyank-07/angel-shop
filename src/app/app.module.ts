@@ -19,7 +19,9 @@ import { RouterModule } from '@angular/router';
 import { FlexLayoutModule } from '@angular/flex-layout';
 import {MatIconModule} from '@angular/material/icon';
 import { ViewareaComponent } from './components/viewarea/viewarea.component'
-import {MatBadgeModule} from '@angular/material/badge'
+import {MatBadgeModule} from '@angular/material/badge';
+import { FooterareaComponent } from './components/footerarea/footerarea.component'
+import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,8 @@ import {MatBadgeModule} from '@angular/material/badge'
     DefaultpageComponent,
     ProductnavbarComponent,
     ProductcardComponent,
-    ViewareaComponent
+    ViewareaComponent,
+    FooterareaComponent
   ],
   imports: [
     BrowserModule,
@@ -41,8 +44,9 @@ import {MatBadgeModule} from '@angular/material/badge'
     MatCardModule,
     HttpClientModule,
     MatGridListModule,
-    RouterModule,FlexLayoutModule,MatIconModule
-
+    RouterModule,FlexLayoutModule,MatIconModule,FontAwesomeModule
+    
+    
     
 
   ],
