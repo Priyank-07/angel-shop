@@ -15,16 +15,8 @@ export class DefaultpageComponent implements OnInit {
   someval : boolean = true;
   ngOnInit(): void {
    
-    console.log(this.showHomePage);
+   // console.log(this.showHomePage);
   }
   constructor(private router : Router) { }
-
-
- 
-  // move(){
-  //   console.log("clicked");
-  //   this.showHomePage =false;
-  //   this.router.navigate(["/mugs"]);
-  // }
  
 }

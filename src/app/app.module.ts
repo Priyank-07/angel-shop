@@ -22,7 +22,9 @@ import { ViewareaComponent } from './components/viewarea/viewarea.component'
 import {MatBadgeModule} from '@angular/material/badge';
 import { FooterareaComponent } from './components/footerarea/footerarea.component'
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-
+import { SelectedProductService } from './components/selected-product.service';
+import { MobilecardComponent } from './components/mobilecard/mobilecard.component';
+import {MatExpansionModule } from '@angular/material/expansion'
 @NgModule({
   declarations: [
     AppComponent,
@@ -33,7 +35,8 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     ProductnavbarComponent,
     ProductcardComponent,
     ViewareaComponent,
-    FooterareaComponent
+    FooterareaComponent,
+    MobilecardComponent
   ],
   imports: [
     BrowserModule,
@@ -44,13 +47,14 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     MatCardModule,
     HttpClientModule,
     MatGridListModule,
+    MatExpansionModule,
     RouterModule,FlexLayoutModule,MatIconModule,FontAwesomeModule
     
     
     
 
   ],
-  providers: [],
+  providers: [SelectedProductService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

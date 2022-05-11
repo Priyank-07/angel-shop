@@ -1,5 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Component, OnInit } from '@angular/core';
+import { SelectedProductService } from '../../selected-product.service';
+
 
 interface CoffeMug{
   id:Number;
@@ -13,10 +15,14 @@ interface CoffeMug{
 })
 export class ProductcardComponent implements OnInit {
 
-  constructor(private httpClient:HttpClient) { }
+  constructor(private httpClient:HttpClient,private selProduct : SelectedProductService) { }
    products :any =[];
   ngOnInit(): void {
-    this.httpClient.get("assets/productsDetails/coffeemug.json").subscribe(data =>{
+    this.showMugs()
+  }
+  showMugs(){
+   console.log( this.selProduct.getproduct());
+    this.httpClient.get("assets/productsDetails/"+this.selProduct.getproduct()+".json").subscribe(data =>{
       this.products=data;
     })
   }

@@ -7,7 +7,7 @@
             <div class="row" >
                 <div class="col" style="margin: 4px;"> 
                     
-                    <mat-card id="productCardAnimation1"> 
+                    <mat-card (click)="move(productArray[0])" id="productCardAnimation1"> 
 
                         <p style="font-family:Sans-serif;text-align:center;font-size:large">
                         
@@ -17,7 +17,7 @@
                 </div>
                 <div class="col" style="margin: 4px;"> 
 
-                <mat-card (click)="move()" id="productCardAnimation2"> 
+                <mat-card (click)="move(productArray[1])" id="productCardAnimation2"> 
                     <p style="font-family:Sans-serif;text-align:center;font-size:large">
                     
                         Coffee Mugs 

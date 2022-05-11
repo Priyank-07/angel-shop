@@ -1,0 +1,44 @@
+[
+    {
+        "id":1,
+        "name":"Samsung",
+        "items":[
+            {
+
+                "id":1,
+                "name":"abc"
+            },{
+                "id":1,
+                "name":"xyz"
+            }
+    ]
+    },
+    {
+        "id":2,
+        "name":"RealMe"
+    },
+    {
+        "id":3,
+        "name":"Poco"
+    },
+    {
+        "id":4,
+        "name":"Mi"
+    },
+    {
+        "id":5,
+        "name":"Infinix"
+    },{
+        "id":6,
+        "name":"Vivo"
+    },
+    {
+        "id":7,
+        "name":"MicroMax"
+    },
+    {
+        "id":8,
+        "name":"Oneplus"
+    }
+
+]
